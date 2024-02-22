@@ -4,11 +4,11 @@ using FactoryMethod.Interfaces;
 
 namespace FactoryMethod.ConcreteCreators
 {
-	public class ConcreteCreator1 : Creator
+	public class SMSNotificationCreator : NotificationCreator
 	{
-		public override IProduct FactoryMethod()
+		public override INotification CreateNotification()
 		{
-			return new ConcreteProduct1();
+			return new SMSNotification();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿using FactoryMethod.Interfaces;
 
-namespace FactoryMethod.ConcreteProducts
+namespace FactoryMethod.ConcreteInterfaces
 {
 	public class ConcreteProduct1 : IProduct
 	{

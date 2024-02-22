@@ -1,5 +1,5 @@
 ﻿using FactoryMethod.AbstractClasses;
-using FactoryMethod.ConcreteProducts;
+using FactoryMethod.ConcreteInterfaces;
 using FactoryMethod.Interfaces;
 
 namespace FactoryMethod.ConcreteCreators
